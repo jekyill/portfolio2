@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Targets the navbar itself */
+#nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: linear-gradient(to bottom right, #51e2f5, #9df9ef, #fdffdc, #ffa8b6, #a28089);
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 0.5s;
+    color: black;
+}
+
+/* Targets the clickable words */
+#nav a {
+    color: #00FF00;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+/* Hover effect on clickable words */
+#nav a:hover {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    font-size: 22px;
+    transition-duration: 0.2s;
+    text-transform: uppercase;
+}
+
+/* Active state for clickable words */
+#nav a:active {
+    color: rgba(255, 255, 255, 0.34);
+    transition: color 0.2s;
+}
+/* Heading design */
+.heading1 {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.heading2 {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    text-align: left;
+    font-family: 'Courier New', monospace;
+    margin-left: 10px;
+}
+
+.heading3 {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    margin-right: 10px;
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 10px;
+}
+/* Box Design */
+.box1 {
+    padding: 40px;
+    border: 2px solid #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    margin: 30px;
+    size: auto;
+    margin-left: 30px;
+}
+
+.box2 {
+    padding: 20px;
+    background-color: 2px linear-gradient(to bottom right, #51e2f5, #9df9ef, #fdffdc, #ffa8b6, #a28089);
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    border: 2px linear-gradient(to #a28089, #ffa8b6, #fdffdc, #9df9ef, #51e2f5);
+    border-style: inset;
+    margin: 10px;
+    width: 645px;
+    height: 365px;
+    margin-top: 10px;
+}
+
+.box3 {
+    padding: 40px;
+    background-color: greenyellow;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    border: 10px dotted darkblue;
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+    margin-top: 230px;
+    margin-left: 30px;
+}
+
+.project1{
+    padding: 40px;
+    border: 2px solid #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    margin: 30px;
+    size: auto;
+    margin-left: 30px;
+}
+#interests {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+    font-family: 'Courier New', monospace;
+}
+/* Text Design */
+.text1 {
+    margin-left: 10px;
+    border:1px, solid #00FF00;
+    border-radius: 10px;
+    width: 25%;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+}
+
+.text2 {
+    margin-left: 10px;
+    border:1px, solid #00FF00;
+    border-radius: 10px;
+    width: 35%;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+}
+
+.text3 {
+    margin-left: 150px;
+    text-align:start;
+    border:1px, solid #00FF00;
+    border-radius: 10px;
+    width: 75%;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+}
+
+.text4{
+    margin-left: 10px;
+    text-align: center;
+    border:1px, solid #00FF00;
+    border-radius: 10px;
+    width: 25%;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+}
+
+.textcolor {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+}
+/*Button Designs*/
+.weatherbutton{
+    
+        background-color: #00FF00;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+    }
+.pythonbutton{
+    background-color: #00FF00;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.cashmachinebutton{
+    background-color: #00FF00;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+}
+.selfie {
+    border:1px, solid #00FF00;
+    border-radius: 10px;
+    width: 50%;
+    float:right;
+    margin-top: -498px;
+    margin-right: 100px;
+}
+
+img {
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+}
+.weatherthumbnail {
+    height: 150px;
+    width: 150px;
+    max-width: 100%; /* Ensure responsiveness */
+    max-height: 100%; /* Ensure responsiveness */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.google {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    padding: 20px;
+    gap: 10px;
+}
+
+.category1 {
+    background-color: #51e2f5;
+    border: 2px solid black;
+}
+
+.answer1 {
+    background-color: #9df9ef;
+    border: 2px solid black;
+    color: #fdffdc;
+}
+
+/* Background gradient and color for the body */
+.backgroundgradient {
+    background-color: black;
+    color: #00FF00;
+}
+
+body.backgroundcolor {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    position: relative; /* Important for scanlines */
+    overflow: hidden; /* To ensure scanlines cover entire body */
+}
+
+/* Glowing text effect */
+.glowing-text {
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00;
+}
+
+/* Blinking cursor effect */
+#terminal::after {
+    content: ''; /* Content for the cursor */
+    display: inline-block;
+    width: 10px; /* Width of the cursor */
+    height: 20px; /* Height of the cursor */
+    background-color: #00FF00; /* Color of the cursor */
+    margin-left: 2px;
+    animation: blink 1s step-start infinite; /* Animation for blinking */
+}
+
+/* Define the blinking animation */
+@keyframes blink {
+    50% {
+        opacity: 0; /* Make the cursor invisible at 50% of the animation duration */
+    }
+}
+
+/* Progress bar container using green squares */
+.progress-container {
+    width: 460px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border: 2px solid #00FF00; /* Green border for the outline */
+    background-color: black; /* Black background inside */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* Green squares inside the progress bar */
+.square {
+    width: 20px; /* Size of each green square */
+    height: 20px;
+    background-color: #00FF00; /* Green color for the filled squares */
+    margin-right: 2px; /* Spacing between squares */
+}
+
+/* Button styling */
+#homeButton {
+    display: none;
+    background-color: #00FF00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#homeButton:hover {
+    background-color: #33FF33;
+}
+
+/* Simulate a low refresh rate monitor flicker */
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    5% {
+        opacity: 0.85;
+    }
+    10% {
+        opacity: 0.7;
+    }
+    15% {
+        opacity: 0.9;
+    }
+    20% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0.85;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply flickering effect to terminal */
+#terminal {
+    animation: flicker 1.5s infinite;
+}
+
+/* Apply flicker effect to body background */
+body.backgroundcolor {
+    animation: flicker 1.5s infinite; /* Flicker effect for the body */
+}
+
+/* Single scanline effect with typical color for green-on-black monitors */
+.scanlines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Thickness of the scanline */
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 100, 0, 0.6) 0%, /* Dark green color */
+        rgba(0, 50, 0, 0.4) 50%, /* Slightly darker */
+        rgba(0, 0, 0, 0.2) 100%  /* Fade to near black */
+    ); /* Subtle green glow effect */
+    pointer-events: none;
+    z-index: 2;
+    animation: scanline-animation 2s linear infinite; /* Adjust speed and duration */
+}
+
+
+/* Scanline animation (moving from top to bottom) */
+@keyframes scanline-animation {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+/* Container for all proficiency bars */
+.proficiency-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each language */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit max width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Each proficiency entry */
+.proficiency {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Courier New', monospace; /* Terminal-style font */
+    color: #00FF00; /* Terminal green color */
+}
+
+/* Label for the language */
+.language-label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Progress bar container */
+.progress-bar {
+    width: 90%;
+    background-color: black;
+    border: 2px solid #00FF00; /* Green border for the bar */
+    height: 30px; /* Height of the bar */
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+}
+
+/* The green filling that represents the proficiency */
+.progress {
+    background-color: #00FF00; /* Green color for the filled portion */
+    height: 100%;
+    transition: width 0.5s ease-in-out; /* Smooth transition */
+    box-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00; /* Glowing effect */
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    color: black; /* Color of the percentage text (you can change it) */
+}
+
+/* Percentage text inside the progress bar */
+.percentage-text {
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Center the text in the middle */
+    white-space: nowrap; /* Prevent text from breaking onto new lines */
+}
